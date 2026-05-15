@@ -1518,9 +1518,9 @@ export default function StormLink() {
         </div>
 
         <footer className="relative z-10 border-t border-white/5 mt-6 py-3 px-6">
-          <div className="max-w-screen-xl mx-auto flex items-center justify-between text-xs text-slate-700 font-mono">
-            <span>STORMLINK v0.4 · HACKATHON DEMO · NOT FOR OPERATIONAL USE</span>
-            <span>MAP: OpenStreetMap/CARTO · DATA: NWS · USGS · CLAUDE AI</span>
+          <div className="max-w-screen-xl mx-auto flex items-center justify-between text-xs font-mono">
+            <span className="text-slate-700">MAP: OpenStreetMap/CARTO · DATA: NWS · USGS · CLAUDE AI</span>
+            <span className="text-slate-500">Made for <span className="text-cyan-500">WeatherWise Hack</span></span>
           </div>
         </footer>
       </div>
